@@ -196,7 +196,7 @@ def part_b(file_path, algorithm_accuracy):
     print("Positive Accuracy:", positive_accuracy / total * 100)
     print("Improvement over Positive:", algorithm_accuracy - (positive_accuracy / total * 100))
 
-    with open(f"output/q1/b.txt", 'a') as file:
+    with open(f"{directory_path}/b.txt", 'a') as file:
         file.write(f"Random Accuracy: {random_accuracy / total * 100}\n")
         file.write(f"Improvement over Random: {algorithm_accuracy - (random_accuracy / total * 100)}\n")
         file.write(f"Positive Accuracy: {positive_accuracy / total * 100}\n")
@@ -271,12 +271,12 @@ if __name__ == '__main__':
     print(50*'-',"Part F", 50*'-')
     with open(f"{directory_path}/f.txt", 'w') as file:
         pass
-    target_validation = "data/q1/Domain_Adaptation/Twitter_validation.csv"  
+    target_validation = "Data/Domain_Adaptation/Twitter_validation.csv"  
     target_domain_size = [1, 2, 5, 10, 25, 50, 100]
     domain_adaptation_accuracy_array = []
     domain_adaptation_without_source_accuracy_array = []
     for size in target_domain_size:
-        target_domain = f"data/q1/Domain_Adaptation/Twitter_train_{size}.csv"  
+        target_domain = f"Data/Domain_Adaptation/Twitter_train_{size}.csv"  
 
         domain_adaptation_accuracy, domain_adaptation_matrix = part_a(tweets_training_file_path, target_validation, f"domain_adaptation {size}", "f",False, True, target_domain)  
         domain_adaptation_accuracy_array.append(domain_adaptation_accuracy)

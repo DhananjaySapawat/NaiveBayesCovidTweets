@@ -1,0 +1,10 @@
+1.Training Set
+Random Accuracy: 33.07891400802874
+Improvement over Random: 52.0811324741179
+Positive Accuracy: 43.84639763363617
+Improvement over Positive: 41.31364884851047
+2.Validation Set
+Random Accuracy: 33.495293045854844
+Improvement over Random: 32.88794412389918
+Positive Accuracy: 43.85059216519891
+Improvement over Positive: 22.532645004555114

@@ -1,0 +1,2 @@
+Training Set Accuracy: 87.37323050919079
+validation Set Accuracy: 68.53932584269663

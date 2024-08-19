@@ -1,0 +1,14 @@
+domain_adaptation 1 Set Accuracy: 50.03313452617627
+domain_adaptation 1 without source Set Accuracy: 41.484426772697155
+domain_adaptation 2 Set Accuracy: 50.76209410205435
+domain_adaptation 2 without source Set Accuracy: 41.020543406229294
+domain_adaptation 5 Set Accuracy: 51.7561298873426
+domain_adaptation 5 without source Set Accuracy: 43.77070907886017
+domain_adaptation 10 Set Accuracy: 52.584493041749504
+domain_adaptation 10 without source Set Accuracy: 48.376408217362496
+domain_adaptation 25 Set Accuracy: 51.689860834990064
+domain_adaptation 25 without source Set Accuracy: 47.349237905897944
+domain_adaptation 50 Set Accuracy: 51.92180251822399
+domain_adaptation 50 without source Set Accuracy: 48.54208084824387
+domain_adaptation 100 Set Accuracy: 56.95825049701789
+domain_adaptation 100 without source Set Accuracy: 54.27435387673957
